@@ -1,8 +1,6 @@
-import 'package:fashion_star_shop/common/styles/form_divider.dart';
 import 'package:fashion_star_shop/features/authentication/screens/signup.widgets/verify_email.dart';
 import 'package:fashion_star_shop/utils/constants/sizes.dart';
 import 'package:fashion_star_shop/utils/constants/text_string.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
@@ -136,7 +134,6 @@ class SignupScreen extends StatelessWidget {
                   ],
                 ),
               ),
-
               // TFormDivider(dividerText: TTexts.orSignUpWith.capitalize),
             ],
           ),
